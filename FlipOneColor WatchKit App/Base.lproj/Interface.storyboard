@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FlipOneColor_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" height="0.40000000000000002" alignment="left" text="Flip One Color" textAlignment="center" id="Iuv-6I-BLS"/>
+                        <button width="1" alignment="left" title="Play" id="9mQ-6R-NJk">
+                            <connections>
+                                <action selector="buttonDidTap" destination="AgC-eL-Hgc" id="22H-jC-uBo"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+        <!--playController-->
+        <scene sceneID="tEC-zH-wih">
+            <objects>
+                <controller identifier="playController" id="xfm-Wd-d2m" customClass="PlayInterfaceController" customModule="FlipOneColor_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="xa9-On-EQb">
+                            <items>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="jId-6q-HVQ">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button1DidTap" destination="xfm-Wd-d2m" id="HPE-LL-MEr"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="yN8-s3-csk">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button2DidTap" destination="xfm-Wd-d2m" id="IRJ-uR-b7i"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="E0d-7Z-bOJ">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button3DidTap" destination="xfm-Wd-d2m" id="Vqb-XN-2LV"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="tGe-v4-rOw">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button4DidTap" destination="xfm-Wd-d2m" id="W63-uC-13w"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="2fM-cE-kBZ">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button5DidTap" destination="xfm-Wd-d2m" id="TLJ-8a-cEq"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="pwf-Zh-Xyh">
+                            <items>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="Q0U-m1-sc5">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button6DidTap" destination="xfm-Wd-d2m" id="lLU-E5-x9D"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="5aZ-bu-CPW">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button7DidTap" destination="xfm-Wd-d2m" id="U3X-4p-umI"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="qsJ-5I-i9Q">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button8DidTap" destination="xfm-Wd-d2m" id="7Rz-f2-1Qn"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="fG8-VS-h8h">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button9DidTap" destination="xfm-Wd-d2m" id="TLJ-wV-3ns"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="NlK-MD-102">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button10DidTap" destination="xfm-Wd-d2m" id="99i-md-A9o"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="x3r-UI-NFf">
+                            <items>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="LNP-wL-qYp">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button11DidTap" destination="xfm-Wd-d2m" id="iWI-Zw-Kxt"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="yaZ-1y-R9I">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button12DidTap" destination="xfm-Wd-d2m" id="bM4-OS-m9v"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="IPW-r5-dq9">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button13DidTap" destination="xfm-Wd-d2m" id="1DX-TZ-vWD"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="6i0-ry-cRw">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button14DidTap" destination="xfm-Wd-d2m" id="mcm-tI-4oa"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="Ajf-vd-MqT">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button15DidTap" destination="xfm-Wd-d2m" id="9jV-hP-TKq"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="98j-pL-k9O">
+                            <items>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="bAl-ZU-3AW">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button16DidTap" destination="xfm-Wd-d2m" id="rBF-1L-Ve6"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="DaG-XZ-Cb0">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button17DidTap" destination="xfm-Wd-d2m" id="Qeg-58-Pqy"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="qY1-oE-p3e">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button18DidTap" destination="xfm-Wd-d2m" id="qR2-21-nFw"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="e6D-lx-k1s">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button19DidTap" destination="xfm-Wd-d2m" id="7nN-cJ-bEg"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="BFH-Ht-hbB">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button20DidTap" destination="xfm-Wd-d2m" id="Pce-hT-TxY"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="LMM-Ub-UZS">
+                            <items>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="Izi-yr-cRA">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button21DidTap" destination="xfm-Wd-d2m" id="A4v-OH-NFS"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="nz4-1v-a6S">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button22DidTap" destination="xfm-Wd-d2m" id="MY5-8T-axF"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="CPo-R7-iB9">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button23DidTap" destination="xfm-Wd-d2m" id="OTM-Vn-Snw"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="mFV-R4-rKW">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button24DidTap" destination="xfm-Wd-d2m" id="cWM-AP-dn2"/>
+                                    </connections>
+                                </button>
+                                <button width="0.20000000000000015" height="1" alignment="left" id="9hh-kV-3Dg">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <action selector="button25DidTap" destination="xfm-Wd-d2m" id="WbG-s0-9Eq"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="button1" destination="jId-6q-HVQ" id="RVZ-7L-iAg"/>
+                        <outlet property="button10" destination="NlK-MD-102" id="wGH-Iy-frI"/>
+                        <outlet property="button11" destination="LNP-wL-qYp" id="F2f-Rg-F7D"/>
+                        <outlet property="button12" destination="yaZ-1y-R9I" id="UAK-EG-py0"/>
+                        <outlet property="button13" destination="IPW-r5-dq9" id="m3D-sA-zT5"/>
+                        <outlet property="button14" destination="6i0-ry-cRw" id="zZX-XV-Xiq"/>
+                        <outlet property="button15" destination="Ajf-vd-MqT" id="lPA-jK-B0B"/>
+                        <outlet property="button16" destination="bAl-ZU-3AW" id="MgV-Gp-Dh7"/>
+                        <outlet property="button17" destination="DaG-XZ-Cb0" id="2Iw-ck-Abu"/>
+                        <outlet property="button18" destination="qY1-oE-p3e" id="nK4-06-tvY"/>
+                        <outlet property="button19" destination="e6D-lx-k1s" id="RMF-eo-zZQ"/>
+                        <outlet property="button2" destination="yN8-s3-csk" id="bfc-pG-WOM"/>
+                        <outlet property="button20" destination="BFH-Ht-hbB" id="Q7R-0y-Ntl"/>
+                        <outlet property="button21" destination="Izi-yr-cRA" id="hq1-3k-urz"/>
+                        <outlet property="button22" destination="nz4-1v-a6S" id="Urm-ZH-O3T"/>
+                        <outlet property="button23" destination="CPo-R7-iB9" id="e24-94-G14"/>
+                        <outlet property="button24" destination="mFV-R4-rKW" id="K4W-Ue-s6m"/>
+                        <outlet property="button25" destination="9hh-kV-3Dg" id="VrD-eV-GzF"/>
+                        <outlet property="button3" destination="E0d-7Z-bOJ" id="8FG-Ud-zmv"/>
+                        <outlet property="button4" destination="tGe-v4-rOw" id="JTl-Cs-hKE"/>
+                        <outlet property="button5" destination="2fM-cE-kBZ" id="f5D-pP-BrF"/>
+                        <outlet property="button6" destination="Q0U-m1-sc5" id="M4Y-vv-JUm"/>
+                        <outlet property="button7" destination="5aZ-bu-CPW" id="Owu-gF-TYM"/>
+                        <outlet property="button8" destination="qsJ-5I-i9Q" id="iKm-Py-LhH"/>
+                        <outlet property="button9" destination="fG8-VS-h8h" id="PCV-wT-ImH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="291" y="542.00000241398811"/>
+        </scene>
+        <!--resultController-->
+        <scene sceneID="6Ka-86-yjd">
+            <objects>
+                <controller identifier="resultController" id="ACn-bX-DmE" customClass="ResultInterfaceController" customModule="FlipOneColor_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="0.25" alignment="left" text="Clear" textAlignment="center" id="Oha-Hk-soH"/>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="Wrl-py-nQF">
+                            <items>
+                                <label width="0.5" height="1" alignment="left" text="0" textAlignment="right" id="DdW-Xh-mUq"/>
+                                <label width="0.5" height="1" alignment="left" text="moves" id="DPB-sw-e13"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="lPk-hg-mK0">
+                            <items>
+                                <label width="1" height="1" alignment="left" text="New record" textAlignment="center" id="Wme-an-0ZQ"/>
+                            </items>
+                        </group>
+                        <button width="1" height="0.25" alignment="left" title="Retry" id="YeG-hx-byp">
+                            <connections>
+                                <action selector="retryButtonDidTap" destination="ACn-bX-DmE" id="Zgh-Da-hkQ"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="movesLabel" destination="DdW-Xh-mUq" id="PND-9v-59n"/>
+                        <outlet property="newRecordLabel" destination="Wme-an-0ZQ" id="gmy-UI-g8M"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="292" y="799"/>
+        </scene>
+    </scenes>
+</document>

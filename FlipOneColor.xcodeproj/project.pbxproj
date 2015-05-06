@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B5E15E91AF9D79C00A72741 /* ResultInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15E81AF9D79C00A72741 /* ResultInterfaceController.swift */; };
+		9B5E15EB1AF9E30900A72741 /* LightsOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15EA1AF9E30900A72741 /* LightsOutTests.swift */; };
+		9B5E15EC1AF9E31D00A72741 /* LightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */; };
+		9B5E15ED1AF9E32000A72741 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
+		9BA2C8521AF7BD9400D9F4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */; };
+		9BA2C8541AF7BD9400D9F4BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8531AF7BD9400D9F4BC /* FirstViewController.swift */; };
+		9BA2C8561AF7BD9400D9F4BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8551AF7BD9400D9F4BC /* SecondViewController.swift */; };
+		9BA2C8591AF7BD9400D9F4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C8571AF7BD9400D9F4BC /* Main.storyboard */; };
+		9BA2C85B1AF7BD9400D9F4BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C85A1AF7BD9400D9F4BC /* Images.xcassets */; };
+		9BA2C85E1AF7BD9400D9F4BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C85C1AF7BD9400D9F4BC /* LaunchScreen.xib */; };
+		9BA2C86A1AF7BD9400D9F4BC /* FlipOneColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8691AF7BD9400D9F4BC /* FlipOneColorTests.swift */; };
+		9BA2C87C1AF7BF2A00D9F4BC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C87B1AF7BF2A00D9F4BC /* InterfaceController.swift */; };
+		9BA2C87E1AF7BF2A00D9F4BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C87D1AF7BF2A00D9F4BC /* Images.xcassets */; };
+		9BA2C8821AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C8811AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app */; };
+		9BA2C88A1AF7BF2A00D9F4BC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C8881AF7BF2A00D9F4BC /* Interface.storyboard */; };
+		9BA2C88C1AF7BF2A00D9F4BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C88B1AF7BF2A00D9F4BC /* Images.xcassets */; };
+		9BA2C88F1AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9BA2C8771AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9BA2C8981AF7C5A300D9F4BC /* PlayInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8971AF7C5A300D9F4BC /* PlayInterfaceController.swift */; };
+		9BA2C89A1AF7D4B500D9F4BC /* LightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */; };
+		9BA2C89B1AF7D4B500D9F4BC /* LightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */; };
+		9BA2C89D1AF7D4C600D9F4BC /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
+		9BA2C89E1AF7D4C600D9F4BC /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BA2C8641AF7BD9400D9F4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA2C8441AF7BD9400D9F4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA2C84B1AF7BD9400D9F4BC;
+			remoteInfo = FlipOneColor;
+		};
+		9BA2C8831AF7BF2A00D9F4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA2C8441AF7BD9400D9F4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA2C8801AF7BF2A00D9F4BC;
+			remoteInfo = "FlipOneColor WatchKit App";
+		};
+		9BA2C88D1AF7BF2A00D9F4BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA2C8441AF7BD9400D9F4BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA2C8761AF7BF2A00D9F4BC;
+			remoteInfo = "FlipOneColor WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BA2C8961AF7BF2A00D9F4BC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9BA2C88F1AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B5E15E81AF9D79C00A72741 /* ResultInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultInterfaceController.swift; sourceTree = "<group>"; };
+		9B5E15EA1AF9E30900A72741 /* LightsOutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOutTests.swift; sourceTree = "<group>"; };
+		9BA2C84C1AF7BD9400D9F4BC /* FlipOneColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipOneColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA2C8501AF7BD9400D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BA2C8531AF7BD9400D9F4BC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9BA2C8551AF7BD9400D9F4BC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9BA2C8581AF7BD9400D9F4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA2C85A1AF7BD9400D9F4BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BA2C85D1AF7BD9400D9F4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9BA2C8631AF7BD9400D9F4BC /* FlipOneColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipOneColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA2C8681AF7BD9400D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA2C8691AF7BD9400D9F4BC /* FlipOneColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipOneColorTests.swift; sourceTree = "<group>"; };
+		9BA2C8771AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FlipOneColor WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA2C87A1AF7BF2A00D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA2C87B1AF7BF2A00D9F4BC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9BA2C87D1AF7BF2A00D9F4BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BA2C8811AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlipOneColor WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA2C8871AF7BF2A00D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA2C8891AF7BF2A00D9F4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9BA2C88B1AF7BF2A00D9F4BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BA2C8971AF7C5A300D9F4BC /* PlayInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayInterfaceController.swift; sourceTree = "<group>"; };
+		9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOut.swift; sourceTree = "<group>"; };
+		9BA2C89C1AF7D4C600D9F4BC /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA2C8491AF7BD9400D9F4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA2C8601AF7BD9400D9F4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA2C8741AF7BF2A00D9F4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA2C8431AF7BD9400D9F4BC = {
+			isa = PBXGroup;
+			children = (
+				9BA2C84E1AF7BD9400D9F4BC /* FlipOneColor */,
+				9BA2C8661AF7BD9400D9F4BC /* FlipOneColorTests */,
+				9BA2C8781AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension */,
+				9BA2C8851AF7BF2A00D9F4BC /* FlipOneColor WatchKit App */,
+				9BA2C84D1AF7BD9400D9F4BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA2C84D1AF7BD9400D9F4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C84C1AF7BD9400D9F4BC /* FlipOneColor.app */,
+				9BA2C8631AF7BD9400D9F4BC /* FlipOneColorTests.xctest */,
+				9BA2C8771AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension.appex */,
+				9BA2C8811AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA2C84E1AF7BD9400D9F4BC /* FlipOneColor */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */,
+				9BA2C8531AF7BD9400D9F4BC /* FirstViewController.swift */,
+				9BA2C8551AF7BD9400D9F4BC /* SecondViewController.swift */,
+				9BA2C8571AF7BD9400D9F4BC /* Main.storyboard */,
+				9BA2C85A1AF7BD9400D9F4BC /* Images.xcassets */,
+				9BA2C85C1AF7BD9400D9F4BC /* LaunchScreen.xib */,
+				9BA2C84F1AF7BD9400D9F4BC /* Supporting Files */,
+				9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */,
+				9BA2C89C1AF7D4C600D9F4BC /* Light.swift */,
+			);
+			path = FlipOneColor;
+			sourceTree = "<group>";
+		};
+		9BA2C84F1AF7BD9400D9F4BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C8501AF7BD9400D9F4BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BA2C8661AF7BD9400D9F4BC /* FlipOneColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B5E15EA1AF9E30900A72741 /* LightsOutTests.swift */,
+				9BA2C8691AF7BD9400D9F4BC /* FlipOneColorTests.swift */,
+				9BA2C8671AF7BD9400D9F4BC /* Supporting Files */,
+			);
+			path = FlipOneColorTests;
+			sourceTree = "<group>";
+		};
+		9BA2C8671AF7BD9400D9F4BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C8681AF7BD9400D9F4BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BA2C8781AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C87B1AF7BF2A00D9F4BC /* InterfaceController.swift */,
+				9BA2C87D1AF7BF2A00D9F4BC /* Images.xcassets */,
+				9BA2C8791AF7BF2A00D9F4BC /* Supporting Files */,
+				9BA2C8971AF7C5A300D9F4BC /* PlayInterfaceController.swift */,
+				9B5E15E81AF9D79C00A72741 /* ResultInterfaceController.swift */,
+			);
+			path = "FlipOneColor WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9BA2C8791AF7BF2A00D9F4BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C87A1AF7BF2A00D9F4BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BA2C8851AF7BF2A00D9F4BC /* FlipOneColor WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C8881AF7BF2A00D9F4BC /* Interface.storyboard */,
+				9BA2C88B1AF7BF2A00D9F4BC /* Images.xcassets */,
+				9BA2C8861AF7BF2A00D9F4BC /* Supporting Files */,
+			);
+			path = "FlipOneColor WatchKit App";
+			sourceTree = "<group>";
+		};
+		9BA2C8861AF7BF2A00D9F4BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA2C8871AF7BF2A00D9F4BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA2C84B1AF7BD9400D9F4BC /* FlipOneColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA2C86D1AF7BD9400D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColor" */;
+			buildPhases = (
+				9BA2C8481AF7BD9400D9F4BC /* Sources */,
+				9BA2C8491AF7BD9400D9F4BC /* Frameworks */,
+				9BA2C84A1AF7BD9400D9F4BC /* Resources */,
+				9BA2C8961AF7BF2A00D9F4BC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA2C88E1AF7BF2A00D9F4BC /* PBXTargetDependency */,
+			);
+			name = FlipOneColor;
+			productName = FlipOneColor;
+			productReference = 9BA2C84C1AF7BD9400D9F4BC /* FlipOneColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA2C8621AF7BD9400D9F4BC /* FlipOneColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA2C8701AF7BD9400D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColorTests" */;
+			buildPhases = (
+				9BA2C85F1AF7BD9400D9F4BC /* Sources */,
+				9BA2C8601AF7BD9400D9F4BC /* Frameworks */,
+				9BA2C8611AF7BD9400D9F4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA2C8651AF7BD9400D9F4BC /* PBXTargetDependency */,
+			);
+			name = FlipOneColorTests;
+			productName = FlipOneColorTests;
+			productReference = 9BA2C8631AF7BD9400D9F4BC /* FlipOneColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BA2C8761AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA2C8931AF7BF2A00D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColor WatchKit Extension" */;
+			buildPhases = (
+				9BA2C8731AF7BF2A00D9F4BC /* Sources */,
+				9BA2C8741AF7BF2A00D9F4BC /* Frameworks */,
+				9BA2C8751AF7BF2A00D9F4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA2C8841AF7BF2A00D9F4BC /* PBXTargetDependency */,
+			);
+			name = "FlipOneColor WatchKit Extension";
+			productName = "FlipOneColor WatchKit Extension";
+			productReference = 9BA2C8771AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		9BA2C8801AF7BF2A00D9F4BC /* FlipOneColor WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA2C8901AF7BF2A00D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColor WatchKit App" */;
+			buildPhases = (
+				9BA2C87F1AF7BF2A00D9F4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlipOneColor WatchKit App";
+			productName = "FlipOneColor WatchKit App";
+			productReference = 9BA2C8811AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA2C8441AF7BD9400D9F4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = tnantoka;
+				TargetAttributes = {
+					9BA2C84B1AF7BD9400D9F4BC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9BA2C8621AF7BD9400D9F4BC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 9BA2C84B1AF7BD9400D9F4BC;
+					};
+					9BA2C8761AF7BF2A00D9F4BC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					9BA2C8801AF7BF2A00D9F4BC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BA2C8471AF7BD9400D9F4BC /* Build configuration list for PBXProject "FlipOneColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA2C8431AF7BD9400D9F4BC;
+			productRefGroup = 9BA2C84D1AF7BD9400D9F4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA2C84B1AF7BD9400D9F4BC /* FlipOneColor */,
+				9BA2C8621AF7BD9400D9F4BC /* FlipOneColorTests */,
+				9BA2C8761AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension */,
+				9BA2C8801AF7BF2A00D9F4BC /* FlipOneColor WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA2C84A1AF7BD9400D9F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2C8591AF7BD9400D9F4BC /* Main.storyboard in Resources */,
+				9BA2C85E1AF7BD9400D9F4BC /* LaunchScreen.xib in Resources */,
+				9BA2C85B1AF7BD9400D9F4BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA2C8611AF7BD9400D9F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA2C8751AF7BF2A00D9F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2C8821AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app in Resources */,
+				9BA2C87E1AF7BF2A00D9F4BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA2C87F1AF7BF2A00D9F4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2C88A1AF7BF2A00D9F4BC /* Interface.storyboard in Resources */,
+				9BA2C88C1AF7BF2A00D9F4BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA2C8481AF7BD9400D9F4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2C8561AF7BD9400D9F4BC /* SecondViewController.swift in Sources */,
+				9BA2C89D1AF7D4C600D9F4BC /* Light.swift in Sources */,
+				9BA2C89A1AF7D4B500D9F4BC /* LightsOut.swift in Sources */,
+				9BA2C8521AF7BD9400D9F4BC /* AppDelegate.swift in Sources */,
+				9BA2C8541AF7BD9400D9F4BC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA2C85F1AF7BD9400D9F4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5E15EC1AF9E31D00A72741 /* LightsOut.swift in Sources */,
+				9BA2C86A1AF7BD9400D9F4BC /* FlipOneColorTests.swift in Sources */,
+				9B5E15ED1AF9E32000A72741 /* Light.swift in Sources */,
+				9B5E15EB1AF9E30900A72741 /* LightsOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA2C8731AF7BF2A00D9F4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2C89B1AF7D4B500D9F4BC /* LightsOut.swift in Sources */,
+				9B5E15E91AF9D79C00A72741 /* ResultInterfaceController.swift in Sources */,
+				9BA2C87C1AF7BF2A00D9F4BC /* InterfaceController.swift in Sources */,
+				9BA2C89E1AF7D4C600D9F4BC /* Light.swift in Sources */,
+				9BA2C8981AF7C5A300D9F4BC /* PlayInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA2C8651AF7BD9400D9F4BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA2C84B1AF7BD9400D9F4BC /* FlipOneColor */;
+			targetProxy = 9BA2C8641AF7BD9400D9F4BC /* PBXContainerItemProxy */;
+		};
+		9BA2C8841AF7BF2A00D9F4BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA2C8801AF7BF2A00D9F4BC /* FlipOneColor WatchKit App */;
+			targetProxy = 9BA2C8831AF7BF2A00D9F4BC /* PBXContainerItemProxy */;
+		};
+		9BA2C88E1AF7BF2A00D9F4BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA2C8761AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension */;
+			targetProxy = 9BA2C88D1AF7BF2A00D9F4BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BA2C8571AF7BD9400D9F4BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA2C8581AF7BD9400D9F4BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA2C85C1AF7BD9400D9F4BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA2C85D1AF7BD9400D9F4BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9BA2C8881AF7BF2A00D9F4BC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA2C8891AF7BF2A00D9F4BC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA2C86B1AF7BD9400D9F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BA2C86C1AF7BD9400D9F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA2C86E1AF7BD9400D9F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlipOneColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BA2C86F1AF7BD9400D9F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlipOneColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BA2C8711AF7BD9400D9F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipOneColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipOneColor.app/FlipOneColor";
+			};
+			name = Debug;
+		};
+		9BA2C8721AF7BD9400D9F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlipOneColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipOneColor.app/FlipOneColor";
+			};
+			name = Release;
+		};
+		9BA2C8911AF7BF2A00D9F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = FlipOneColor_WatchKit_Extension;
+				INFOPLIST_FILE = "FlipOneColor WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		9BA2C8921AF7BF2A00D9F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FlipOneColor_WatchKit_Extension;
+				INFOPLIST_FILE = "FlipOneColor WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		9BA2C8941AF7BF2A00D9F4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlipOneColor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9BA2C8951AF7BF2A00D9F4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FlipOneColor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA2C8471AF7BD9400D9F4BC /* Build configuration list for PBXProject "FlipOneColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA2C86B1AF7BD9400D9F4BC /* Debug */,
+				9BA2C86C1AF7BD9400D9F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA2C86D1AF7BD9400D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA2C86E1AF7BD9400D9F4BC /* Debug */,
+				9BA2C86F1AF7BD9400D9F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA2C8701AF7BD9400D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA2C8711AF7BD9400D9F4BC /* Debug */,
+				9BA2C8721AF7BD9400D9F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA2C8901AF7BF2A00D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColor WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA2C8911AF7BF2A00D9F4BC /* Debug */,
+				9BA2C8921AF7BF2A00D9F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA2C8931AF7BF2A00D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColor WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA2C8941AF7BF2A00D9F4BC /* Debug */,
+				9BA2C8951AF7BF2A00D9F4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA2C8441AF7BD9400D9F4BC /* Project object */;
+}
