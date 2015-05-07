@@ -29,7 +29,6 @@ class InterfaceController: WKInterfaceController {
     }
 
     @IBAction func buttonDidTap() {
-        println("tap")
         pushControllerWithName("playController", context: nil)
     }
 }

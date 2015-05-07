@@ -10,8 +10,8 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FlipOneColor_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="1" height="0.40000000000000002" alignment="left" text="Flip One Color" textAlignment="center" id="Iuv-6I-BLS"/>
-                        <button width="1" alignment="left" title="Play" id="9mQ-6R-NJk">
+                        <label width="1" height="0.75" alignment="left" text="Flip One Color" textAlignment="center" id="Iuv-6I-BLS"/>
+                        <button width="1" height="0.25" alignment="left" title="Play" id="9mQ-6R-NJk">
                             <connections>
                                 <action selector="buttonDidTap" destination="AgC-eL-Hgc" id="22H-jC-uBo"/>
                             </connections>
@@ -233,13 +233,13 @@
                 <controller identifier="resultController" id="ACn-bX-DmE" customClass="ResultInterfaceController" customModule="FlipOneColor_WatchKit_Extension">
                     <items>
                         <label width="1" height="0.25" alignment="left" text="Clear" textAlignment="center" id="Oha-Hk-soH"/>
-                        <group width="1" height="0.20000000000000001" alignment="left" id="Wrl-py-nQF">
+                        <group width="1" height="0.25" alignment="left" id="Wrl-py-nQF">
                             <items>
                                 <label width="0.5" height="1" alignment="left" text="0" textAlignment="right" id="DdW-Xh-mUq"/>
                                 <label width="0.5" height="1" alignment="left" text="moves" id="DPB-sw-e13"/>
                             </items>
                         </group>
-                        <group width="1" height="0.20000000000000001" alignment="left" id="lPk-hg-mK0">
+                        <group width="1" height="0.25" alignment="left" id="lPk-hg-mK0">
                             <items>
                                 <label width="1" height="1" alignment="left" text="New record" textAlignment="center" id="Wme-an-0ZQ"/>
                             </items>

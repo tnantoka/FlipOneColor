@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //println(RLMRealm.defaultRealmPath())
         return true
     }
 
@@ -41,6 +42,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func application(application: UIApplication, handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]?, reply: (([NSObject : AnyObject]!) -> Void)!) {
+
+        let info = userInfo as! [String: AnyObject]
+        let moves = info["moves"] as! Int
+        
+        let score = Score()
+        score.moves = moves
+        score.createdAt = NSDate()
+
+        let realm = RLMRealm.defaultRealm()
+        realm.transactionWithBlock({ () -> Void in
+            realm.addObject(score)
+        })
+        
+        let replyInfo = [
+            "newRecord": Score.isNewRecord(moves)
+        ]
+        reply(replyInfo)
+    }
 
 }
 

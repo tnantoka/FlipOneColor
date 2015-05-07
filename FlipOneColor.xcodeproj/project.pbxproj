@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294D38D826BFD8140005111D /* libPods-FlipOneColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DADF7BBD9E734F6A179D8 /* libPods-FlipOneColor.a */; };
+		2FE0D306C49B99FDA1AB31A9 /* libPods-FlipOneColorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1DC45EFC38224DF63129EB /* libPods-FlipOneColorTests.a */; };
 		9B5E15E91AF9D79C00A72741 /* ResultInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15E81AF9D79C00A72741 /* ResultInterfaceController.swift */; };
 		9B5E15EB1AF9E30900A72741 /* LightsOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15EA1AF9E30900A72741 /* LightsOutTests.swift */; };
 		9B5E15EC1AF9E31D00A72741 /* LightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */; };
 		9B5E15ED1AF9E32000A72741 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
+		9B5E15F21AF9F71E00A72741 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15F11AF9F71E00A72741 /* Score.swift */; };
+		9B9295861AFBA2BC002B2ABA /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15F11AF9F71E00A72741 /* Score.swift */; };
+		9B9295881AFBA550002B2ABA /* ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9295871AFBA550002B2ABA /* ScoreTests.swift */; };
 		9BA2C8521AF7BD9400D9F4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */; };
 		9BA2C8541AF7BD9400D9F4BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8531AF7BD9400D9F4BC /* FirstViewController.swift */; };
 		9BA2C8561AF7BD9400D9F4BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8551AF7BD9400D9F4BC /* SecondViewController.swift */; };
@@ -70,8 +75,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		002DADF7BBD9E734F6A179D8 /* libPods-FlipOneColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipOneColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0569EAA7B0BD60A19827D2CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		229B2C85380A94CEDF74B9E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6095B398770ECD463194D9 /* Pods-FlipOneColorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColorTests/Pods-FlipOneColorTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8414500A4B0C77861B6555 /* Pods-FlipOneColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor.debug.xcconfig"; sourceTree = "<group>"; };
+		71891636D029C81956DC4671 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7F1DC45EFC38224DF63129EB /* libPods-FlipOneColorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipOneColorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5E15E81AF9D79C00A72741 /* ResultInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultInterfaceController.swift; sourceTree = "<group>"; };
 		9B5E15EA1AF9E30900A72741 /* LightsOutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOutTests.swift; sourceTree = "<group>"; };
+		9B5E15F11AF9F71E00A72741 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		9B5E15F31AF9F8DE00A72741 /* FlipOneColor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipOneColor-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B9295871AFBA550002B2ABA /* ScoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreTests.swift; sourceTree = "<group>"; };
 		9BA2C84C1AF7BD9400D9F4BC /* FlipOneColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipOneColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA2C8501AF7BD9400D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +109,8 @@
 		9BA2C8971AF7C5A300D9F4BC /* PlayInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayInterfaceController.swift; sourceTree = "<group>"; };
 		9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOut.swift; sourceTree = "<group>"; };
 		9BA2C89C1AF7D4C600D9F4BC /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		A51DE0314010A9CA1888383F /* Pods-FlipOneColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColor.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor.release.xcconfig"; sourceTree = "<group>"; };
+		D0918C6868E8A9C91B41E644 /* Pods-FlipOneColorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColorTests/Pods-FlipOneColorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294D38D826BFD8140005111D /* libPods-FlipOneColor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE0D306C49B99FDA1AB31A9 /* libPods-FlipOneColorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +148,8 @@
 				9BA2C8781AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension */,
 				9BA2C8851AF7BF2A00D9F4BC /* FlipOneColor WatchKit App */,
 				9BA2C84D1AF7BD9400D9F4BC /* Products */,
+				ABF2612586C90AD3795CB70C /* Pods */,
+				F847EFC2AD42051F0B84E601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +176,8 @@
 				9BA2C84F1AF7BD9400D9F4BC /* Supporting Files */,
 				9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */,
 				9BA2C89C1AF7D4C600D9F4BC /* Light.swift */,
+				9B5E15F11AF9F71E00A72741 /* Score.swift */,
+				9B5E15F31AF9F8DE00A72741 /* FlipOneColor-Bridging-Header.h */,
 			);
 			path = FlipOneColor;
 			sourceTree = "<group>";
@@ -172,6 +195,7 @@
 			children = (
 				9B5E15EA1AF9E30900A72741 /* LightsOutTests.swift */,
 				9BA2C8691AF7BD9400D9F4BC /* FlipOneColorTests.swift */,
+				9B9295871AFBA550002B2ABA /* ScoreTests.swift */,
 				9BA2C8671AF7BD9400D9F4BC /* Supporting Files */,
 			);
 			path = FlipOneColorTests;
@@ -223,6 +247,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABF2612586C90AD3795CB70C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71891636D029C81956DC4671 /* Pods.debug.xcconfig */,
+				0569EAA7B0BD60A19827D2CB /* Pods.release.xcconfig */,
+				D0918C6868E8A9C91B41E644 /* Pods-FlipOneColorTests.debug.xcconfig */,
+				2C6095B398770ECD463194D9 /* Pods-FlipOneColorTests.release.xcconfig */,
+				4F8414500A4B0C77861B6555 /* Pods-FlipOneColor.debug.xcconfig */,
+				A51DE0314010A9CA1888383F /* Pods-FlipOneColor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F847EFC2AD42051F0B84E601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229B2C85380A94CEDF74B9E4 /* libPods.a */,
+				7F1DC45EFC38224DF63129EB /* libPods-FlipOneColorTests.a */,
+				002DADF7BBD9E734F6A179D8 /* libPods-FlipOneColor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,10 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BA2C86D1AF7BD9400D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColor" */;
 			buildPhases = (
+				85CF48B67A8F0B0F482C45D7 /* Check Pods Manifest.lock */,
 				9BA2C8481AF7BD9400D9F4BC /* Sources */,
 				9BA2C8491AF7BD9400D9F4BC /* Frameworks */,
 				9BA2C84A1AF7BD9400D9F4BC /* Resources */,
 				9BA2C8961AF7BF2A00D9F4BC /* Embed App Extensions */,
+				657DA3FB3A057503DCD48A87 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BA2C8701AF7BD9400D9F4BC /* Build configuration list for PBXNativeTarget "FlipOneColorTests" */;
 			buildPhases = (
+				ECEF8661178F8BBC40C21D52 /* Check Pods Manifest.lock */,
 				9BA2C85F1AF7BD9400D9F4BC /* Sources */,
 				9BA2C8601AF7BD9400D9F4BC /* Frameworks */,
 				9BA2C8611AF7BD9400D9F4BC /* Resources */,
+				746D5CEDB1A0D291262A4993 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +368,7 @@
 					};
 					9BA2C8801AF7BF2A00D9F4BC = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = H4Z42X3L6X;
 					};
 				};
 			};
@@ -379,6 +431,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		657DA3FB3A057503DCD48A87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		746D5CEDB1A0D291262A4993 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipOneColorTests/Pods-FlipOneColorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CF48B67A8F0B0F482C45D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEF8661178F8BBC40C21D52 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BA2C8481AF7BD9400D9F4BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -388,6 +503,7 @@
 				9BA2C89D1AF7D4C600D9F4BC /* Light.swift in Sources */,
 				9BA2C89A1AF7D4B500D9F4BC /* LightsOut.swift in Sources */,
 				9BA2C8521AF7BD9400D9F4BC /* AppDelegate.swift in Sources */,
+				9B5E15F21AF9F71E00A72741 /* Score.swift in Sources */,
 				9BA2C8541AF7BD9400D9F4BC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,10 +512,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9295881AFBA550002B2ABA /* ScoreTests.swift in Sources */,
 				9B5E15EC1AF9E31D00A72741 /* LightsOut.swift in Sources */,
 				9BA2C86A1AF7BD9400D9F4BC /* FlipOneColorTests.swift in Sources */,
 				9B5E15ED1AF9E32000A72741 /* Light.swift in Sources */,
 				9B5E15EB1AF9E30900A72741 /* LightsOutTests.swift in Sources */,
+				9B9295861AFBA2BC002B2ABA /* Score.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,26 +664,34 @@
 		};
 		9BA2C86E1AF7BD9400D9F4BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8414500A4B0C77861B6555 /* Pods-FlipOneColor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlipOneColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlipOneColor/FlipOneColor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		9BA2C86F1AF7BD9400D9F4BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51DE0314010A9CA1888383F /* Pods-FlipOneColor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlipOneColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlipOneColor/FlipOneColor-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		9BA2C8711AF7BD9400D9F4BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0918C6868E8A9C91B41E644 /* Pods-FlipOneColorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -579,12 +705,14 @@
 				INFOPLIST_FILE = FlipOneColorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlipOneColor/FlipOneColor-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipOneColor.app/FlipOneColor";
 			};
 			name = Debug;
 		};
 		9BA2C8721AF7BD9400D9F4BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6095B398770ECD463194D9 /* Pods-FlipOneColorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -594,6 +722,7 @@
 				INFOPLIST_FILE = FlipOneColorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlipOneColor/FlipOneColor-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipOneColor.app/FlipOneColor";
 			};
 			name = Release;
@@ -602,6 +731,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -610,6 +741,7 @@
 				INFOPLIST_FILE = "FlipOneColor WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -620,10 +752,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				IBSC_MODULE = FlipOneColor_WatchKit_Extension;
 				INFOPLIST_FILE = "FlipOneColor WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
