@@ -14,16 +14,20 @@
 		9B5E15EC1AF9E31D00A72741 /* LightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */; };
 		9B5E15ED1AF9E32000A72741 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
 		9B5E15F21AF9F71E00A72741 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15F11AF9F71E00A72741 /* Score.swift */; };
+		9B7658CC1AFBBB2A0033C50C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7658CB1AFBBB2A0033C50C /* HomeViewController.swift */; };
+		9B7658D01AFBBB6C0033C50C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7658CF1AFBBB6C0033C50C /* InfoViewController.swift */; };
+		9B7658D21AFBBD330033C50C /* ScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7658D11AFBBD330033C50C /* ScoresTableViewController.swift */; };
+		9B7658D41AFBC77D0033C50C /* InfoForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7658D31AFBC77D0033C50C /* InfoForm.swift */; };
+		9B7658D61AFC70A60033C50C /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7658D51AFC70A60033C50C /* LevelViewController.swift */; };
+		9B7658D81AFD5A5C0033C50C /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7658D71AFD5A5C0033C50C /* AppConfiguration.swift */; };
 		9B9295861AFBA2BC002B2ABA /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5E15F11AF9F71E00A72741 /* Score.swift */; };
 		9B9295881AFBA550002B2ABA /* ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9295871AFBA550002B2ABA /* ScoreTests.swift */; };
+		9B92958A1AFBB6DE002B2ABA /* Pods-FlipOneColor-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B9295891AFBB6DE002B2ABA /* Pods-FlipOneColor-acknowledgements.plist */; };
 		9BA2C8521AF7BD9400D9F4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */; };
-		9BA2C8541AF7BD9400D9F4BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8531AF7BD9400D9F4BC /* FirstViewController.swift */; };
-		9BA2C8561AF7BD9400D9F4BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8551AF7BD9400D9F4BC /* SecondViewController.swift */; };
-		9BA2C8591AF7BD9400D9F4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C8571AF7BD9400D9F4BC /* Main.storyboard */; };
 		9BA2C85B1AF7BD9400D9F4BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C85A1AF7BD9400D9F4BC /* Images.xcassets */; };
 		9BA2C85E1AF7BD9400D9F4BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C85C1AF7BD9400D9F4BC /* LaunchScreen.xib */; };
 		9BA2C86A1AF7BD9400D9F4BC /* FlipOneColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8691AF7BD9400D9F4BC /* FlipOneColorTests.swift */; };
-		9BA2C87C1AF7BF2A00D9F4BC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C87B1AF7BF2A00D9F4BC /* InterfaceController.swift */; };
+		9BA2C87C1AF7BF2A00D9F4BC /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C87B1AF7BF2A00D9F4BC /* HomeInterfaceController.swift */; };
 		9BA2C87E1AF7BF2A00D9F4BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C87D1AF7BF2A00D9F4BC /* Images.xcassets */; };
 		9BA2C8821AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C8811AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app */; };
 		9BA2C88A1AF7BF2A00D9F4BC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2C8881AF7BF2A00D9F4BC /* Interface.storyboard */; };
@@ -76,23 +80,25 @@
 
 /* Begin PBXFileReference section */
 		002DADF7BBD9E734F6A179D8 /* libPods-FlipOneColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipOneColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0569EAA7B0BD60A19827D2CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		229B2C85380A94CEDF74B9E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6095B398770ECD463194D9 /* Pods-FlipOneColorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColorTests/Pods-FlipOneColorTests.release.xcconfig"; sourceTree = "<group>"; };
 		4F8414500A4B0C77861B6555 /* Pods-FlipOneColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor.debug.xcconfig"; sourceTree = "<group>"; };
-		71891636D029C81956DC4671 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7F1DC45EFC38224DF63129EB /* libPods-FlipOneColorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlipOneColorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5E15E81AF9D79C00A72741 /* ResultInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultInterfaceController.swift; sourceTree = "<group>"; };
 		9B5E15EA1AF9E30900A72741 /* LightsOutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOutTests.swift; sourceTree = "<group>"; };
 		9B5E15F11AF9F71E00A72741 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		9B5E15F31AF9F8DE00A72741 /* FlipOneColor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipOneColor-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B7658CB1AFBBB2A0033C50C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B7658CF1AFBBB6C0033C50C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		9B7658D11AFBBD330033C50C /* ScoresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresTableViewController.swift; sourceTree = "<group>"; };
+		9B7658D31AFBC77D0033C50C /* InfoForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoForm.swift; sourceTree = "<group>"; };
+		9B7658D51AFC70A60033C50C /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		9B7658D71AFD5A5C0033C50C /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		9B9295871AFBA550002B2ABA /* ScoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreTests.swift; sourceTree = "<group>"; };
+		9B9295891AFBB6DE002B2ABA /* Pods-FlipOneColor-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-FlipOneColor-acknowledgements.plist"; sourceTree = "<group>"; };
 		9BA2C84C1AF7BD9400D9F4BC /* FlipOneColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipOneColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA2C8501AF7BD9400D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BA2C8531AF7BD9400D9F4BC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9BA2C8551AF7BD9400D9F4BC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		9BA2C8581AF7BD9400D9F4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA2C85A1AF7BD9400D9F4BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9BA2C85D1AF7BD9400D9F4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9BA2C8631AF7BD9400D9F4BC /* FlipOneColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipOneColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +106,7 @@
 		9BA2C8691AF7BD9400D9F4BC /* FlipOneColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipOneColorTests.swift; sourceTree = "<group>"; };
 		9BA2C8771AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FlipOneColor WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA2C87A1AF7BF2A00D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BA2C87B1AF7BF2A00D9F4BC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9BA2C87B1AF7BF2A00D9F4BC /* HomeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
 		9BA2C87D1AF7BF2A00D9F4BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9BA2C8811AF7BF2A00D9F4BC /* FlipOneColor WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlipOneColor WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA2C8871AF7BF2A00D9F4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,9 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				9BA2C8511AF7BD9400D9F4BC /* AppDelegate.swift */,
-				9BA2C8531AF7BD9400D9F4BC /* FirstViewController.swift */,
-				9BA2C8551AF7BD9400D9F4BC /* SecondViewController.swift */,
-				9BA2C8571AF7BD9400D9F4BC /* Main.storyboard */,
 				9BA2C85A1AF7BD9400D9F4BC /* Images.xcassets */,
 				9BA2C85C1AF7BD9400D9F4BC /* LaunchScreen.xib */,
 				9BA2C84F1AF7BD9400D9F4BC /* Supporting Files */,
@@ -178,6 +181,12 @@
 				9BA2C89C1AF7D4C600D9F4BC /* Light.swift */,
 				9B5E15F11AF9F71E00A72741 /* Score.swift */,
 				9B5E15F31AF9F8DE00A72741 /* FlipOneColor-Bridging-Header.h */,
+				9B7658CB1AFBBB2A0033C50C /* HomeViewController.swift */,
+				9B7658D11AFBBD330033C50C /* ScoresTableViewController.swift */,
+				9B7658CF1AFBBB6C0033C50C /* InfoViewController.swift */,
+				9B7658D31AFBC77D0033C50C /* InfoForm.swift */,
+				9B7658D51AFC70A60033C50C /* LevelViewController.swift */,
+				9B7658D71AFD5A5C0033C50C /* AppConfiguration.swift */,
 			);
 			path = FlipOneColor;
 			sourceTree = "<group>";
@@ -186,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				9BA2C8501AF7BD9400D9F4BC /* Info.plist */,
+				9B9295891AFBB6DE002B2ABA /* Pods-FlipOneColor-acknowledgements.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,7 +222,7 @@
 		9BA2C8781AF7BF2A00D9F4BC /* FlipOneColor WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9BA2C87B1AF7BF2A00D9F4BC /* InterfaceController.swift */,
+				9BA2C87B1AF7BF2A00D9F4BC /* HomeInterfaceController.swift */,
 				9BA2C87D1AF7BF2A00D9F4BC /* Images.xcassets */,
 				9BA2C8791AF7BF2A00D9F4BC /* Supporting Files */,
 				9BA2C8971AF7C5A300D9F4BC /* PlayInterfaceController.swift */,
@@ -250,8 +260,6 @@
 		ABF2612586C90AD3795CB70C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				71891636D029C81956DC4671 /* Pods.debug.xcconfig */,
-				0569EAA7B0BD60A19827D2CB /* Pods.release.xcconfig */,
 				D0918C6868E8A9C91B41E644 /* Pods-FlipOneColorTests.debug.xcconfig */,
 				2C6095B398770ECD463194D9 /* Pods-FlipOneColorTests.release.xcconfig */,
 				4F8414500A4B0C77861B6555 /* Pods-FlipOneColor.debug.xcconfig */,
@@ -398,7 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA2C8591AF7BD9400D9F4BC /* Main.storyboard in Resources */,
+				9B92958A1AFBB6DE002B2ABA /* Pods-FlipOneColor-acknowledgements.plist in Resources */,
 				9BA2C85E1AF7BD9400D9F4BC /* LaunchScreen.xib in Resources */,
 				9BA2C85B1AF7BD9400D9F4BC /* Images.xcassets in Resources */,
 			);
@@ -499,12 +507,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA2C8561AF7BD9400D9F4BC /* SecondViewController.swift in Sources */,
+				9B7658CC1AFBBB2A0033C50C /* HomeViewController.swift in Sources */,
+				9B7658D41AFBC77D0033C50C /* InfoForm.swift in Sources */,
 				9BA2C89D1AF7D4C600D9F4BC /* Light.swift in Sources */,
+				9B7658D61AFC70A60033C50C /* LevelViewController.swift in Sources */,
+				9B7658D21AFBBD330033C50C /* ScoresTableViewController.swift in Sources */,
 				9BA2C89A1AF7D4B500D9F4BC /* LightsOut.swift in Sources */,
+				9B7658D81AFD5A5C0033C50C /* AppConfiguration.swift in Sources */,
+				9B7658D01AFBBB6C0033C50C /* InfoViewController.swift in Sources */,
 				9BA2C8521AF7BD9400D9F4BC /* AppDelegate.swift in Sources */,
 				9B5E15F21AF9F71E00A72741 /* Score.swift in Sources */,
-				9BA2C8541AF7BD9400D9F4BC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +539,7 @@
 			files = (
 				9BA2C89B1AF7D4B500D9F4BC /* LightsOut.swift in Sources */,
 				9B5E15E91AF9D79C00A72741 /* ResultInterfaceController.swift in Sources */,
-				9BA2C87C1AF7BF2A00D9F4BC /* InterfaceController.swift in Sources */,
+				9BA2C87C1AF7BF2A00D9F4BC /* HomeInterfaceController.swift in Sources */,
 				9BA2C89E1AF7D4C600D9F4BC /* Light.swift in Sources */,
 				9BA2C8981AF7C5A300D9F4BC /* PlayInterfaceController.swift in Sources */,
 			);
@@ -554,14 +566,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9BA2C8571AF7BD9400D9F4BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BA2C8581AF7BD9400D9F4BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BA2C85C1AF7BD9400D9F4BC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

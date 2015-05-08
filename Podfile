@@ -3,6 +3,11 @@
 
 target 'FlipOneColor' do
   pod 'Realm'
+  pod 'FontAwesomeKit/FontAwesome'
+  pod 'VTAcknowledgementsViewController'
+  pod 'YLMoment'
+  pod 'FXForms'
+  pod 'CJPAdController', '1.6.3'
 end
 
 target 'FlipOneColorTests' do
@@ -18,3 +23,9 @@ target 'FlipOneColor WatchKit App' do
 end
 
 #use_frameworks!
+
+post_install do |installer|
+  require 'fileutils'
+  FileUtils.cp_r('Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor-acknowledgements.plist', 'FlipOneColor/Pods-FlipOneColor-acknowledgements.plist')
+end
+

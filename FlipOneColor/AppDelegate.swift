@@ -17,6 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         //println(RLMRealm.defaultRealmPath())
+
+        let homeController = HomeViewController()
+        let scoresController = ScoresTableViewController()
+        let infoController = InfoViewController()
+
+        let homeNavController = UINavigationController(rootViewController: homeController)
+        let scoresNavController = UINavigationController(rootViewController: scoresController)
+        let infoNavController = UINavigationController(rootViewController: infoController)
+
+        let tabController = UITabBarController()
+        tabController.viewControllers = [
+            homeNavController,
+            scoresNavController,
+            infoNavController
+        ]
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.rootViewController = tabController
+        window?.makeKeyAndVisible()
+
         return true
     }
 
@@ -49,6 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let score = Score()
         score.moves = moves
+        score.level = 5
         score.createdAt = NSDate()
 
         let realm = RLMRealm.defaultRealm()

@@ -1,13 +1,33 @@
 PODS:
+  - CJPAdController (1.6.3):
+    - Google-Mobile-Ads-SDK (= 6.12.2)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FXForms (1.2.12)
+  - Google-Mobile-Ads-SDK (6.12.2)
   - Realm (0.92.1):
     - Realm/Headers (= 0.92.1)
   - Realm/Headers (0.92.1)
+  - VTAcknowledgementsViewController (0.13)
+  - YLMoment (0.5.2)
 
 DEPENDENCIES:
+  - CJPAdController (= 1.6.3)
+  - FontAwesomeKit/FontAwesome
+  - FXForms
   - Realm
   - Realm/Headers
+  - VTAcknowledgementsViewController
+  - YLMoment
 
 SPEC CHECKSUMS:
+  CJPAdController: 11d45034aef892ca9abff7338092e52b9853a18d
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  FXForms: b6a78bac9f6b597ce704e34ac7c1ce9ff628b1d5
+  Google-Mobile-Ads-SDK: 40217793219e3466f24cb884d1d44023f37a20ee
   Realm: 10c91667c5c65d6fe56b206c2c31e9b5eafb8718
+  VTAcknowledgementsViewController: f2391b007c3abafd3b3afccda7d8914a59b44309
+  YLMoment: 11348f13579ac6646309abafabb19057d5bd581b
 
 COCOAPODS: 0.36.1

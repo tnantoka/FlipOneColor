@@ -106,12 +106,12 @@ class PlayInterfaceController: WKInterfaceController {
         sync(light.up)
         sync(light.down)
         
-        if lightsOut.isCleared() {
+        //if lightsOut.isCleared() {
             let context = [
                 "moves": lightsOut.moves,
             ]
             presentControllerWithName("resultController", context: context)
-        }
+        //}
     }
 
     func sync(light: Light?) {

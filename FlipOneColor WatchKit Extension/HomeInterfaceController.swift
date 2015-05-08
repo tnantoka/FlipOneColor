@@ -1,5 +1,5 @@
 //
-//  InterfaceController.swift
+//  HomeInterfaceController.swift
 //  FlipOneColor WatchKit Extension
 //
 //  Created by Tatsuya Tobioka on 5/4/15.
@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class HomeInterfaceController: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)

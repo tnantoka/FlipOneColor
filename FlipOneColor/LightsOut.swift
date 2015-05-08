@@ -11,26 +11,34 @@ import UIKit
 class LightsOut {
     var lights = [Light]()
     var moves = 0
+    var level: Int
     
-    init() {
-        for i in 0..<25 {
+    convenience init() {
+        self.init(level: 5)
+    }
+    
+    init(level: Int) {
+        self.level = level
+        let length = (level * level)
+        
+        for i in 0..<length {
             let light = Light()
             light.index = i
             lights.append(light)
         }
         
         for (i, light) in enumerate(lights) {
-            if i % 5 != 0 {
+            if i % level != 0 {
                 light.left = lights[i - 1]
             }
-            if i % 5 != 4 {
+            if i % level != (level - 1) {
                 light.right = lights[i + 1]
             }
-            if i > 4 {
-                light.up = lights[i - 5]
+            if i > (level - 1) {
+                light.up = lights[i - level]
             }
-            if i < 20 {
-                light.down = lights[i + 5]                
+            if i < (length - level) {
+                light.down = lights[i + level]
             }
         }
 

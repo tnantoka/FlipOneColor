@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Home Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FlipOneColor_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="HomeInterfaceController" customModule="FlipOneColor_WatchKit_Extension">
                     <items>
                         <label width="1" height="0.75" alignment="left" text="Flip One Color" textAlignment="center" id="Iuv-6I-BLS"/>
                         <button width="1" height="0.25" alignment="left" title="Play" id="9mQ-6R-NJk">

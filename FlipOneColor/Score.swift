@@ -10,6 +10,7 @@ import UIKit
 
 class Score: RLMObject {
     dynamic var moves = 0
+    dynamic var level = 0
     dynamic var createdAt = NSDate()
     
     class func isNewRecord(moves: Int) -> Bool{
