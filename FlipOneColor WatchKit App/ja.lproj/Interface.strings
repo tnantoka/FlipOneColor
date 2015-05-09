@@ -1,0 +1,21 @@
+
+/* Class = "WKInterfaceButton"; title = "Play"; ObjectID = "9mQ-6R-NJk"; */
+"9mQ-6R-NJk.title" = "プレイ";
+
+/* Class = "WKInterfaceLabel"; text = "moves"; ObjectID = "DPB-sw-e13"; */
+"DPB-sw-e13.text" = "手";
+
+/* Class = "WKInterfaceLabel"; text = "0"; ObjectID = "DdW-Xh-mUq"; */
+"DdW-Xh-mUq.text" = "0";
+
+/* Class = "WKInterfaceLabel"; text = "Flip One Color"; ObjectID = "Iuv-6I-BLS"; */
+"Iuv-6I-BLS.text" = "反転一色";
+
+/* Class = "WKInterfaceLabel"; text = "Clear"; ObjectID = "Oha-Hk-soH"; */
+"Oha-Hk-soH.text" = "クリアー";
+
+/* Class = "WKInterfaceLabel"; text = "New Record"; ObjectID = "Wme-an-0ZQ"; */
+"Wme-an-0ZQ.text" = "新記録";
+
+/* Class = "WKInterfaceButton"; title = "Retry"; ObjectID = "YeG-hx-byp"; */
+"YeG-hx-byp.title" = "リトライ";

@@ -15,7 +15,7 @@ class ScoresTableViewController: UITableViewController {
     var scores: RLMResults?
     var level = AppConfiguration.sharedConfiguration.level {
         didSet {
-            navigationItem.rightBarButtonItem?.title = "Level \(level)"
+            navigationItem.rightBarButtonItem?.title = NSLocalizedString("Level \(level)", comment: "")
         }
     }
 
@@ -39,7 +39,12 @@ class ScoresTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let levelItem = UIBarButtonItem(title: "Level  ", style: .Plain, target: self, action: "levelItemDidTap:")
+        let levelItem = UIBarButtonItem(
+            title: NSLocalizedString("Level  ", comment: ""),
+            style: .Plain,
+            target: self,
+            action: "levelItemDidTap:"
+        )
         navigationItem.rightBarButtonItem = levelItem
     }
     

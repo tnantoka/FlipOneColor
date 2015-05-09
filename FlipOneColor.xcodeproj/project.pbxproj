@@ -40,6 +40,9 @@
 		9BA2C89E1AF7D4C600D9F4BC /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
 		9BF1DA881AFDB8D8000065F1 /* LightsOutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */; };
 		9BF1DA8A1AFDD730000065F1 /* AppSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1DA891AFDD730000065F1 /* AppSecret.swift */; };
+		9BF1DA8D1AFE3274000065F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1DA8F1AFE3274000065F1 /* Localizable.strings */; };
+		9BF1DA941AFE3671000065F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1DA961AFE3671000065F1 /* InfoPlist.strings */; };
+		9BF1DA9A1AFE3B33000065F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BF1DA9C1AFE3B33000065F1 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +122,13 @@
 		9BA2C89C1AF7D4C600D9F4BC /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 		9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOutScene.swift; sourceTree = "<group>"; };
 		9BF1DA891AFDD730000065F1 /* AppSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSecret.swift; sourceTree = "<group>"; };
+		9BF1DA8E1AFE3274000065F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9BF1DA901AFE328C000065F1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Interface.strings; sourceTree = "<group>"; };
+		9BF1DA911AFE328D000065F1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9BF1DA951AFE3671000065F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BF1DA971AFE3672000065F1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BF1DA9B1AFE3B33000065F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BF1DA9D1AFE3B35000065F1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A51DE0314010A9CA1888383F /* Pods-FlipOneColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColor.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor.release.xcconfig"; sourceTree = "<group>"; };
 		D0918C6868E8A9C91B41E644 /* Pods-FlipOneColorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColorTests/Pods-FlipOneColorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +212,8 @@
 			children = (
 				9BA2C8501AF7BD9400D9F4BC /* Info.plist */,
 				9B9295891AFBB6DE002B2ABA /* Pods-FlipOneColor-acknowledgements.plist */,
+				9BF1DA8F1AFE3274000065F1 /* Localizable.strings */,
+				9BF1DA961AFE3671000065F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -259,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				9BA2C8871AF7BF2A00D9F4BC /* Info.plist */,
+				9BF1DA9C1AFE3B33000065F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -393,6 +406,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 9BA2C8431AF7BD9400D9F4BC;
 			productRefGroup = 9BA2C84D1AF7BD9400D9F4BC /* Products */;
@@ -413,8 +427,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B92958A1AFBB6DE002B2ABA /* Pods-FlipOneColor-acknowledgements.plist in Resources */,
+				9BF1DA8D1AFE3274000065F1 /* Localizable.strings in Resources */,
 				9BA2C85E1AF7BD9400D9F4BC /* LaunchScreen.xib in Resources */,
 				9BA2C85B1AF7BD9400D9F4BC /* Images.xcassets in Resources */,
+				9BF1DA941AFE3671000065F1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA2C88A1AF7BF2A00D9F4BC /* Interface.storyboard in Resources */,
+				9BF1DA9A1AFE3B33000065F1 /* InfoPlist.strings in Resources */,
 				9BA2C88C1AF7BF2A00D9F4BC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,8 +603,36 @@
 			isa = PBXVariantGroup;
 			children = (
 				9BA2C8891AF7BF2A00D9F4BC /* Base */,
+				9BF1DA901AFE328C000065F1 /* ja */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		9BF1DA8F1AFE3274000065F1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF1DA8E1AFE3274000065F1 /* Base */,
+				9BF1DA911AFE328D000065F1 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		9BF1DA961AFE3671000065F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF1DA951AFE3671000065F1 /* Base */,
+				9BF1DA971AFE3672000065F1 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BF1DA9C1AFE3B33000065F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF1DA9B1AFE3B33000065F1 /* Base */,
+				9BF1DA9D1AFE3B35000065F1 /* ja */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

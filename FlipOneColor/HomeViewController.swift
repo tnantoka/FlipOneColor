@@ -37,10 +37,20 @@ class HomeViewController: UIViewController {
         view.backgroundColor = backgroundColor
 
         // Do any additional setup after loading the view.
-        let resetItem = UIBarButtonItem(title: "Reset", style: .Plain, target: self, action: "resetItemDidTap:")
+        let resetItem = UIBarButtonItem(
+            title: NSLocalizedString("Reset", comment: ""),
+            style: .Plain,
+            target: self,
+            action: "resetItemDidTap:"
+        )
         navigationItem.leftBarButtonItem = resetItem
 
-        let levelItem = UIBarButtonItem(title: "Level", style: .Plain, target: self, action: "levelItemDidTap:")
+        let levelItem = UIBarButtonItem(
+            title: NSLocalizedString("Level", comment: ""),
+            style: .Plain,
+            target: self,
+            action: "levelItemDidTap:"
+        )
         navigationItem.rightBarButtonItem = levelItem
         
         let size = CGRectGetWidth(view.bounds)
