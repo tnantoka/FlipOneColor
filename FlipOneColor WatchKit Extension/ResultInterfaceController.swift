@@ -18,22 +18,20 @@ class ResultInterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        let dict = context as! [String: AnyObject]
-        let moves = dict["moves"] as! Int
-        //let moves = 0
-        //let moves = 1
+        let userInfo = context as! [String: AnyObject]
+        let moves = userInfo["moves"] as! Int
         movesLabel.setText("\(moves) ")
         newRecordLabel.setHidden(true)
         // Configure interface objects here.
         
-        let userInfo = [
-            "moves": moves
-        ]
         WKInterfaceController.openParentApplication(
             userInfo,
             reply: { (replyInfo: [NSObject : AnyObject]!, error: NSError!) -> Void in                
-                let newRecord = replyInfo["newRecord"] as! Bool
-                self.newRecordLabel.setHidden(!newRecord)
+                if let newRecord = replyInfo?["newRecord"] as? Bool {
+                    self.newRecordLabel.setHidden(!newRecord)
+                } else {
+                    println(error.localizedDescription)
+                }
             }
         )
     }

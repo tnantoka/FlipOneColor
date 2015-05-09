@@ -33,8 +33,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             infoNavController
         ]
         
+        //CJPAdController.sharedInstance().adMobUnitID = ""
+        CJPAdController.sharedInstance().startWithViewController(tabController)
+        
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.rootViewController = tabController
+        //window?.rootViewController = tabController
+        window?.rootViewController = CJPAdController.sharedInstance()
         window?.makeKeyAndVisible()
 
         return true
@@ -66,20 +70,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let info = userInfo as! [String: AnyObject]
         let moves = info["moves"] as! Int
+        let level = info["level"] as! Int
         
         let score = Score()
         score.moves = moves
-        score.level = 5
+        score.level = level
         score.createdAt = NSDate()
 
+        let replyInfo = [
+            "newRecord": Score.isNewRecord(moves, level: level)
+        ]
+        
         let realm = RLMRealm.defaultRealm()
         realm.transactionWithBlock({ () -> Void in
             realm.addObject(score)
         })
         
-        let replyInfo = [
-            "newRecord": Score.isNewRecord(moves)
-        ]
         reply(replyInfo)
     }
 

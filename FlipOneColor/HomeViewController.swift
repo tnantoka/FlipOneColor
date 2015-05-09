@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import SpriteKit
 
 class HomeViewController: UIViewController {
+    
+    weak var skView: SKView!
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -26,19 +29,51 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = UIColor.whiteColor()
+        
         // Do any additional setup after loading the view.
         let resetItem = UIBarButtonItem(title: "Reset", style: .Plain, target: self, action: "resetItemDidTap:")
         navigationItem.leftBarButtonItem = resetItem
 
         let levelItem = UIBarButtonItem(title: "Level", style: .Plain, target: self, action: "levelItemDidTap:")
         navigationItem.rightBarButtonItem = levelItem
+        
+        let size = CGRectGetWidth(view.bounds)
+        let skView = SKView(frame: CGRectMake(0.0, 0.0, size, size))
+        self.skView = skView
+        view.addSubview(skView)
+        
+        #if DEBUG
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        skView.showsDrawCount = true
+        skView.showsPhysics = true
+        skView.showsFields = true
+        skView.showsQuadCount = true
+        #endif
+        
+        skView.ignoresSiblingOrder = true
+        
+        let scene = LightsOutScene(size: skView.bounds.size)
+        skView.presentScene(scene)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        skView.center = CGPointMake(
+            view.center.x,
+            view.center.y + 8.0 // Adjust for iPhone 4S with Ad
+        )
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
     /*
     // MARK: - Navigation

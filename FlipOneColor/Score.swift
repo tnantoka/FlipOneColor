@@ -13,7 +13,7 @@ class Score: RLMObject {
     dynamic var level = 0
     dynamic var createdAt = NSDate()
     
-    class func isNewRecord(moves: Int) -> Bool{
-        return objectsWithPredicate(NSPredicate(format: "moves <= \(moves)")).count == 0
+    class func isNewRecord(moves: Int, level: Int) -> Bool{
+        return objectsWithPredicate(NSPredicate(format: "moves <= \(moves) && level == \(level)")).count == 0
     }
 }

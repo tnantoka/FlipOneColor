@@ -38,6 +38,7 @@
 		9BA2C89B1AF7D4B500D9F4BC /* LightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */; };
 		9BA2C89D1AF7D4C600D9F4BC /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
 		9BA2C89E1AF7D4C600D9F4BC /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
+		9BF1DA881AFDB8D8000065F1 /* LightsOutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		9BA2C8971AF7C5A300D9F4BC /* PlayInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayInterfaceController.swift; sourceTree = "<group>"; };
 		9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOut.swift; sourceTree = "<group>"; };
 		9BA2C89C1AF7D4C600D9F4BC /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOutScene.swift; sourceTree = "<group>"; };
 		A51DE0314010A9CA1888383F /* Pods-FlipOneColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColor.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor.release.xcconfig"; sourceTree = "<group>"; };
 		D0918C6868E8A9C91B41E644 /* Pods-FlipOneColorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColorTests/Pods-FlipOneColorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +189,7 @@
 				9B7658D31AFBC77D0033C50C /* InfoForm.swift */,
 				9B7658D51AFC70A60033C50C /* LevelViewController.swift */,
 				9B7658D71AFD5A5C0033C50C /* AppConfiguration.swift */,
+				9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */,
 			);
 			path = FlipOneColor;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				9B7658D21AFBBD330033C50C /* ScoresTableViewController.swift in Sources */,
 				9BA2C89A1AF7D4B500D9F4BC /* LightsOut.swift in Sources */,
 				9B7658D81AFD5A5C0033C50C /* AppConfiguration.swift in Sources */,
+				9BF1DA881AFDB8D8000065F1 /* LightsOutScene.swift in Sources */,
 				9B7658D01AFBBB6C0033C50C /* InfoViewController.swift in Sources */,
 				9BA2C8521AF7BD9400D9F4BC /* AppDelegate.swift in Sources */,
 				9B5E15F21AF9F71E00A72741 /* Score.swift in Sources */,
@@ -624,6 +628,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -674,6 +679,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlipOneColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FlipOneColor/FlipOneColor-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -708,6 +714,7 @@
 				);
 				INFOPLIST_FILE = FlipOneColorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FlipOneColor/FlipOneColor-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipOneColor.app/FlipOneColor";
@@ -778,6 +785,7 @@
 				);
 				INFOPLIST_FILE = "FlipOneColor WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
 			};

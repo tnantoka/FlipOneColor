@@ -39,10 +39,11 @@ class ScoreTests: XCTestCase {
     }
 
     func testIsCleared() {
-        XCTAssertTrue(Score.isNewRecord(1))
+        XCTAssertTrue(Score.isNewRecord(1, level: 5))
         
         let score = Score()
         score.moves = 0
+        score.level = 5
         score.createdAt = NSDate()
 
         let realm = RLMRealm.defaultRealm()
@@ -50,6 +51,6 @@ class ScoreTests: XCTestCase {
             realm.addObject(score)
         })
 
-        XCTAssertFalse(Score.isNewRecord(1))
+        XCTAssertFalse(Score.isNewRecord(1, level: 5))
     }
 }

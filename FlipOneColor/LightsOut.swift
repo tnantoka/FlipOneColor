@@ -55,6 +55,11 @@ class LightsOut {
     }
 
     func isCleared() -> Bool {
+        #if DEBUG
+            if moves > 5 {
+                return true
+            }
+        #endif
         return lights.filter({ $0.on }).isEmpty || lights.filter({ !$0.on }).isEmpty
     }
 }
