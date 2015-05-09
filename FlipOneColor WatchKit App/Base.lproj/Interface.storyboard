@@ -241,7 +241,7 @@
                         </group>
                         <group width="1" height="0.25" alignment="left" id="lPk-hg-mK0">
                             <items>
-                                <label width="1" height="1" alignment="left" text="New record" textAlignment="center" id="Wme-an-0ZQ"/>
+                                <label width="1" height="1" alignment="left" text="New Record" textAlignment="center" id="Wme-an-0ZQ"/>
                             </items>
                         </group>
                         <button width="1" height="0.25" alignment="left" title="Retry" id="YeG-hx-byp">

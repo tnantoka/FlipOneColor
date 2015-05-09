@@ -18,7 +18,7 @@ class LevelViewController: UIViewController, UIPopoverPresentationControllerDele
         13,
     ]
     
-    var levelDidChanged: (Int -> Void)?
+    var levelDidChange: (Int -> Void)?
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -62,8 +62,8 @@ class LevelViewController: UIViewController, UIPopoverPresentationControllerDele
         let segmentedControl = sender as! UISegmentedControl
         let level = levels[segmentedControl.selectedSegmentIndex]
         AppConfiguration.sharedConfiguration.level = level
-        if let callback = levelDidChanged {
-            callback(level)
+        if let didChange = levelDidChange {
+            didChange(level)
         }
     }
     

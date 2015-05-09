@@ -34,11 +34,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
         
         //CJPAdController.sharedInstance().adMobUnitID = ""
-        CJPAdController.sharedInstance().startWithViewController(tabController)
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        //window?.rootViewController = tabController
+        
+        #if DEBUG
+        window?.rootViewController = tabController
+        //CJPAdController.sharedInstance().startWithViewController(tabController)
+        //window?.rootViewController = CJPAdController.sharedInstance()
+        #else
+        CJPAdController.sharedInstance().startWithViewController(tabController)
         window?.rootViewController = CJPAdController.sharedInstance()
+        #endif
+        
         window?.makeKeyAndVisible()
 
         return true

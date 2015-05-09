@@ -39,12 +39,13 @@ class ScoresTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let levelItem = UIBarButtonItem(title: "Level \(level)", style: .Plain, target: self, action: "levelItemDidTap:")
+        let levelItem = UIBarButtonItem(title: "Level  ", style: .Plain, target: self, action: "levelItemDidTap:")
         navigationItem.rightBarButtonItem = levelItem
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        self.level = AppConfiguration.sharedConfiguration.level
         loadScores()
     }
 
@@ -141,7 +142,7 @@ class ScoresTableViewController: UITableViewController {
 
     func levelItemDidTap(sender: AnyObject) {
         let levelController = LevelViewController()
-        levelController.levelDidChanged = { (level: Int) in
+        levelController.levelDidChange = { (level: Int) in
             self.dismissViewControllerAnimated(true, completion: nil)
             self.level = level
             self.loadScores()

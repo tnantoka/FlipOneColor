@@ -12,6 +12,7 @@ import SpriteKit
 class HomeViewController: UIViewController {
     
     weak var skView: SKView!
+    weak var lightsOutScene: LightsOutScene!
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -19,7 +20,7 @@ class HomeViewController: UIViewController {
         self.title = NSLocalizedString("Home", comment: "")
         
         let icon = FAKFontAwesome.homeIconWithSize(30.0)
-        self.tabBarItem.image = icon.imageWithSize(CGSizeMake(icon.iconFontSize, icon.iconFontSize))
+        self.tabBarItem.image = icon.imageWithSize(CGSizeMake(icon.iconFontSize, icon.iconFontSize))        
     }
 
     required init(coder aDecoder: NSCoder) {
@@ -29,8 +30,10 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.whiteColor()
+        let backgroundColor = UIColor(white: 0.3, alpha: 1.0)
         
+        view.backgroundColor = backgroundColor
+
         // Do any additional setup after loading the view.
         let resetItem = UIBarButtonItem(title: "Reset", style: .Plain, target: self, action: "resetItemDidTap:")
         navigationItem.leftBarButtonItem = resetItem
@@ -54,8 +57,15 @@ class HomeViewController: UIViewController {
         
         skView.ignoresSiblingOrder = true
         
-        let scene = LightsOutScene(size: skView.bounds.size)
-        skView.presentScene(scene)
+        let lightsOutScene = LightsOutScene(size: skView.bounds.size)
+        lightsOutScene.level = AppConfiguration.sharedConfiguration.level
+        lightsOutScene.sceneDidClear = {
+            let newRecord = self.addScore()
+            self.showClearAlert(newRecord)
+        }
+        lightsOutScene.backgroundColor = backgroundColor
+        self.lightsOutScene = lightsOutScene
+        skView.presentScene(lightsOutScene)
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -86,15 +96,54 @@ class HomeViewController: UIViewController {
     */
 
     func resetItemDidTap(sender: AnyObject) {
-        
+        lightsOutScene.createSceneContents()
     }
     
     func levelItemDidTap(sender: AnyObject) {
         let barButtonItem = sender as! UIBarButtonItem
         let levelController = LevelViewController()
-        levelController.levelDidChanged = { (level: Int) in
+        levelController.levelDidChange = { (level: Int) in
             self.dismissViewControllerAnimated(true, completion: nil)
+            self.lightsOutScene.level = level
         }
         levelController.presentAsPopover(self, barButtonItem: barButtonItem)
-    }    
+    }
+    
+    func showClearAlert(newRecord: Bool) {
+        let alertController = UIAlertController(
+            title: NSLocalizedString("Clear", comment: ""),
+            message: newRecord ? NSLocalizedString("New Record", comment: "") : "",
+            preferredStyle: .Alert
+        )
+        
+        alertController.addAction(
+            UIAlertAction(
+                title: NSLocalizedString("Retry", comment: ""),
+                style: .Default,
+                handler: { (action: UIAlertAction!) -> Void in
+                    self.lightsOutScene.createSceneContents()
+                }
+            )
+        )
+        self.presentViewController(alertController, animated: true, completion: nil)
+    }
+    
+    func addScore() -> Bool {
+        let moves = lightsOutScene.lightsOut.moves
+        let level = lightsOutScene.lightsOut.level
+        
+        let score = Score()
+        score.moves = moves
+        score.level = level
+        score.createdAt = NSDate()
+        
+        let newRecord = Score.isNewRecord(moves, level: level)
+        
+        let realm = RLMRealm.defaultRealm()
+        realm.transactionWithBlock({ () -> Void in
+            realm.addObject(score)
+        })
+        
+        return newRecord
+    }
 }
