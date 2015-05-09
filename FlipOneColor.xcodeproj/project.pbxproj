@@ -39,6 +39,7 @@
 		9BA2C89D1AF7D4C600D9F4BC /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
 		9BA2C89E1AF7D4C600D9F4BC /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2C89C1AF7D4C600D9F4BC /* Light.swift */; };
 		9BF1DA881AFDB8D8000065F1 /* LightsOutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */; };
+		9BF1DA8A1AFDD730000065F1 /* AppSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1DA891AFDD730000065F1 /* AppSecret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		9BA2C8991AF7D4B500D9F4BC /* LightsOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOut.swift; sourceTree = "<group>"; };
 		9BA2C89C1AF7D4C600D9F4BC /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 		9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOutScene.swift; sourceTree = "<group>"; };
+		9BF1DA891AFDD730000065F1 /* AppSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSecret.swift; sourceTree = "<group>"; };
 		A51DE0314010A9CA1888383F /* Pods-FlipOneColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColor.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColor/Pods-FlipOneColor.release.xcconfig"; sourceTree = "<group>"; };
 		D0918C6868E8A9C91B41E644 /* Pods-FlipOneColorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipOneColorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipOneColorTests/Pods-FlipOneColorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +192,7 @@
 				9B7658D51AFC70A60033C50C /* LevelViewController.swift */,
 				9B7658D71AFD5A5C0033C50C /* AppConfiguration.swift */,
 				9BF1DA871AFDB8D8000065F1 /* LightsOutScene.swift */,
+				9BF1DA891AFDD730000065F1 /* AppSecret.swift */,
 			);
 			path = FlipOneColor;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				9BA2C89D1AF7D4C600D9F4BC /* Light.swift in Sources */,
 				9B7658D61AFC70A60033C50C /* LevelViewController.swift in Sources */,
 				9B7658D21AFBBD330033C50C /* ScoresTableViewController.swift in Sources */,
+				9BF1DA8A1AFDD730000065F1 /* AppSecret.swift in Sources */,
 				9BA2C89A1AF7D4B500D9F4BC /* LightsOut.swift in Sources */,
 				9B7658D81AFD5A5C0033C50C /* AppConfiguration.swift in Sources */,
 				9BF1DA881AFDB8D8000065F1 /* LightsOutScene.swift in Sources */,

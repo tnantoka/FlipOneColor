@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             infoNavController
         ]
         
-        //CJPAdController.sharedInstance().adMobUnitID = ""
+        CJPAdController.sharedInstance().adMobUnitID = AppSecret.AdMob.UnitId.phone
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
