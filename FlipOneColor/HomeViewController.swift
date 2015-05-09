@@ -32,6 +32,8 @@ class HomeViewController: UIViewController {
         
         let backgroundColor = UIColor(white: 0.3, alpha: 1.0)
         
+        // 77, 77, 77
+        // #4d4d4d
         view.backgroundColor = backgroundColor
 
         // Do any additional setup after loading the view.
