@@ -97,16 +97,8 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    /*
-    // MARK: - Navigation
+    // MARK: - Actions
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
-    }
-    */
-
     func resetItemDidTap(sender: AnyObject) {
         lightsOutScene.createSceneContents()
     }
@@ -121,6 +113,8 @@ class HomeViewController: UIViewController {
         levelController.presentAsPopover(self, barButtonItem: barButtonItem)
     }
     
+    // MARK: - Utilities
+
     func showClearAlert(newRecord: Bool) {
         var message = NSLocalizedString("\(self.lightsOutScene.lightsOut.moves) moves", comment: "")
         

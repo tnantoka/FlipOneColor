@@ -48,15 +48,7 @@ class LevelViewController: UIViewController, UIPopoverPresentationControllerDele
         // Dispose of any resources that can be recreated.
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    // MARK: - Actions
     
     func segmentedControlDidChange(sender: AnyObject) {
         let segmentedControl = sender as! UISegmentedControl
@@ -66,7 +58,9 @@ class LevelViewController: UIViewController, UIPopoverPresentationControllerDele
             didChange(level)
         }
     }
-    
+
+    // MARK: - Utilities
+
     func presentAsPopover(controller: UIViewController, barButtonItem: UIBarButtonItem) {
         self.modalPresentationStyle = .Popover
         if let popoverController = self.popoverPresentationController {
