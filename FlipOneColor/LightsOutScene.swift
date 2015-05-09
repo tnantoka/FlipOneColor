@@ -12,7 +12,7 @@ import SpriteKit
 class LightsOutScene: SKScene {
 
     let padding: CGFloat = 10.0
-    let margin: CGFloat = 5.0
+    let margin: CGFloat = 6.0
     var shapes: [SKShapeNode]!
     var lightsOut: LightsOut!
     var sceneDidClear: (Void -> Void)?
@@ -28,6 +28,7 @@ class LightsOutScene: SKScene {
         
         let width = size.width - padding * 2.0 - margin * CGFloat(level - 1)
         let shapeSize = width / CGFloat(level)
+        let cornerRadius = shapeSize * 0.2
         
         self.shapes = [SKShapeNode]()
 
@@ -35,7 +36,12 @@ class LightsOutScene: SKScene {
         for i in 0..<level {
             var x = padding
             for j in 0..<level {
-                let path = CGPathCreateWithRoundedRect(CGRectMake(0.0, 0.0, shapeSize, shapeSize), 5.0, 5.0, nil)
+                let path = CGPathCreateWithRoundedRect(
+                    CGRectMake(0.0, 0.0, shapeSize, shapeSize),
+                    cornerRadius,
+                    cornerRadius,
+                    nil
+                )
                 let shapeNode = SKShapeNode(path: path)
                 shapeNode.position = CGPointMake(x, y)
                 shapeNode.strokeColor = SKColor.clearColor()
@@ -51,6 +57,7 @@ class LightsOutScene: SKScene {
             sync(light)
         }
 
+        self.paused = false
     }
     
     override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
@@ -75,6 +82,7 @@ class LightsOutScene: SKScene {
         sync(light.down)
         
         if lightsOut.isCleared() {
+            self.paused = true
             if let didClear = sceneDidClear {
                 didClear()
             }

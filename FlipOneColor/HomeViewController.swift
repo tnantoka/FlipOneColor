@@ -110,9 +110,16 @@ class HomeViewController: UIViewController {
     }
     
     func showClearAlert(newRecord: Bool) {
+        var message = NSLocalizedString("\(self.lightsOutScene.lightsOut.moves) moves", comment: "")
+        
+        if newRecord {
+            message += "\n"
+            message += NSLocalizedString("New Record", comment: "")
+        }
+        
         let alertController = UIAlertController(
             title: NSLocalizedString("Clear", comment: ""),
-            message: newRecord ? NSLocalizedString("New Record", comment: "") : "",
+            message: message,
             preferredStyle: .Alert
         )
         
