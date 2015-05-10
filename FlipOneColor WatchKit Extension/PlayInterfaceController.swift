@@ -80,12 +80,17 @@ class PlayInterfaceController: WKInterfaceController {
             button24,
             button25,
         ]
+        self.lightsOut = LightsOut()
     }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
-        self.lightsOut = LightsOut()
+        
+        if lightsOut.isCleared() {
+            self.lightsOut = LightsOut()            
+        }
+        
         for light in lightsOut.lights {
             sync(light)
         }

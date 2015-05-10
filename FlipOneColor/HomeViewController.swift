@@ -58,6 +58,7 @@ class HomeViewController: UIViewController {
         self.skView = skView
         view.addSubview(skView)
         
+        /*
         #if DEBUG
         skView.showsFPS = true
         skView.showsNodeCount = true
@@ -66,6 +67,7 @@ class HomeViewController: UIViewController {
         skView.showsFields = true
         skView.showsQuadCount = true
         #endif
+        */
         
         skView.ignoresSiblingOrder = true
         
